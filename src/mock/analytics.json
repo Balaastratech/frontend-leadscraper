@@ -1,0 +1,15 @@
+{
+  "leadsToday": 14,
+  "pipeline": {
+    "new": 22,
+    "contacted": 10,
+    "qualified": 8,
+    "won": 3,
+    "lost": 2
+  },
+  "scoreDistribution": [42, 51, 63, 71, 80, 90],
+  "aiInsights": [
+    "Most high-scoring leads come from SaaS segment.",
+    "Contacted leads with >70 score convert at 3× rate."
+  ]
+}

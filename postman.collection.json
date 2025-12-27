@@ -1,0 +1,55 @@
+{
+  "info": {
+    "name": "AI LeadGen Mock API",
+    "_postman_id": "mock-api-collection-001",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/auth/login",
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"email\": \"user@example.com\", \"password\": \"any\" }"
+        }
+      }
+    },
+    {
+      "name": "Leads List",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/leads"
+      }
+    },
+    {
+      "name": "Create Lead",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/leads",
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"name\": \"New Lead\", \"email\": \"test@test.com\" }"
+        }
+      }
+    },
+    {
+      "name": "Scraper Enqueue",
+      "request": {
+        "method": "POST",
+        "url": "{{base_url}}/scraper/enqueue",
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"urls\": [\"https://example.com\"] }"
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:9999"
+    }
+  ]
+}

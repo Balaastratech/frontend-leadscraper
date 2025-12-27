@@ -1,0 +1,41 @@
+[
+  {
+    "id": "scraped-1",
+    "name": "Acme Innovations",
+    "email": "info@acme.com",
+    "phone": "+1 333 444 5555",
+    "website": "https://acme.com",
+    "source": "scraper",
+    "confidence": 0.87,
+    "raw": {
+      "url": "https://acme.com",
+      "fetchedAt": "2024-01-01T10:00:00.000Z"
+    }
+  },
+  {
+    "id": "scraped-2",
+    "name": "Neo Metrics Labs",
+    "email": "hello@neometrics.io",
+    "phone": "+44 20 1234 5678",
+    "website": "https://neometrics.io",
+    "source": "scraper",
+    "confidence": 0.91,
+    "raw": {
+      "url": "https://neometrics.io",
+      "fetchedAt": "2024-01-01T10:00:10.000Z"
+    }
+  },
+  {
+    "id": "scraped-3",
+    "name": "BrightLeaf Digital",
+    "email": "contact@brightleafdigital.com",
+    "phone": "+1 555 777 8899",
+    "website": "https://brightleafdigital.com",
+    "source": "scraper",
+    "confidence": 0.79,
+    "raw": {
+      "url": "https://brightleafdigital.com",
+      "fetchedAt": "2024-01-01T10:00:20.000Z"
+    }
+  }
+]
